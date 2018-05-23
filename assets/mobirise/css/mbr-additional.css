@@ -1762,8 +1762,8 @@ body {
   color: #c1c1c1 !important;
 }
 .cid-qRxN4SUKKY {
-  padding-top: 135px;
-  padding-bottom: 135px;
+  padding-top: 120px;
+  padding-bottom: 105px;
   background-image: url("../../../assets/images/21199347-10212483703322062-7049475040437108842-o-2000x1500.jpg");
 }
 .cid-qSd82iqjWS {
@@ -2818,6 +2818,85 @@ body {
 .cid-qRxR1RTMuE .nav-link:hover,
 .cid-qRxR1RTMuE .dropdown-item:hover {
   color: #c1c1c1 !important;
+}
+.cid-qSRIDl6Lo1 {
+  padding-top: 120px;
+  padding-bottom: 45px;
+  background-image: url("../../../assets/images/table-tennis-table-1014x570.jpg");
+}
+.cid-qSRIDl6Lo1 .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-qSRIDl6Lo1 .container-table {
+  margin: 0 auto;
+}
+.cid-qSRIDl6Lo1 .scroll {
+  overflow-x: auto;
+  padding: 0;
+}
+.cid-qSRIDl6Lo1 .dataTables_wrapper {
+  display: block;
+}
+.cid-qSRIDl6Lo1 .dataTables_wrapper .search {
+  margin-bottom: .5rem;
+}
+.cid-qSRIDl6Lo1 .dataTables_wrapper .table {
+  overflow-x: auto;
+}
+.cid-qSRIDl6Lo1 table {
+  width: 100% !important;
+  margin-top: 6px;
+  border: 1px solid #cccccc;
+  margin-bottom: 0;
+}
+.cid-qSRIDl6Lo1 table th {
+  border-top: none;
+  transition: all .2s;
+  border-bottom: none;
+}
+.cid-qSRIDl6Lo1 table th:hover {
+  background: #cccccc;
+  color: #000000;
+}
+.cid-qSRIDl6Lo1 table td {
+  border-top: 1px solid #cccccc;
+}
+.cid-qSRIDl6Lo1 table.table {
+  background: #ffffff;
+}
+.cid-qSRIDl6Lo1 .dataTables_filter {
+  text-align: right;
+  margin-bottom: .5rem;
+}
+.cid-qSRIDl6Lo1 .dataTables_filter label {
+  display: inline;
+  white-space: normal !important;
+}
+.cid-qSRIDl6Lo1 .dataTables_filter input {
+  display: inline;
+  width: auto;
+  margin-left: .5rem;
+  border-radius: 100px;
+  padding-left: 1rem;
+}
+.cid-qSRIDl6Lo1 .dataTables_info {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  white-space: normal !important;
+}
+@media (max-width: 992px) {
+  .cid-qSRIDl6Lo1 .dataTables_filter {
+    text-align: center;
+  }
+}
+@media (max-width: 350px) {
+  .cid-qSRIDl6Lo1 .dataTables_filter {
+    text-align: center;
+  }
+  .cid-qSRIDl6Lo1 .dataTables_filter input {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
 }
 .cid-qRy6wv4c4y .navbar {
   padding: .5rem 0;
@@ -3985,43 +4064,6 @@ body {
 .cid-qRy6wAJ5Sc .nav-link:hover,
 .cid-qRy6wAJ5Sc .dropdown-item:hover {
   color: #c1c1c1 !important;
-}
-.cid-qRye420Ucm {
-  padding-top: 45px;
-  padding-bottom: 30px;
-  background-image: url("../../../assets/images/21199347-10212483703322062-7049475040437108842-o-2000x1500.jpg");
-}
-@media (min-width: 992px) {
-  .cid-qRye420Ucm .mbr-figure {
-    padding-right: 4rem;
-  }
-}
-@media (max-width: 991px) {
-  .cid-qRye420Ucm .mbr-figure {
-    padding-bottom: 3rem;
-  }
-}
-@media (max-width: 767px) {
-  .cid-qRye420Ucm .mbr-text {
-    text-align: center;
-  }
-}
-.cid-qRye420Ucm H1 {
-  color: #616161;
-}
-.cid-qRye420Ucm H3 {
-  color: #616161;
-}
-.cid-qRye420Ucm .mbr-text,
-.cid-qRye420Ucm .mbr-section-btn {
-  color: #616161;
-}
-.cid-qRye420Ucm .mbr-text,
-.cid-qRye420Ucm .mbr-section-btn P {
-  color: #101010;
-}
-.cid-qRye420Ucm P {
-  color: #000000;
 }
 .cid-qRyee0qozX {
   padding-top: 45px;
@@ -5652,7 +5694,7 @@ body {
 .cid-qS1m6V9zLH {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/21199347-10212483703322062-7049475040437108842-o-2000x150013.jpg");
+  background-image: url("../../../assets/images/21199347-10212483703322062-7049475040437108842-o-2000x150016.jpg");
 }
 .cid-qS1m6V9zLH .mbr-iconfont {
   font-size: 48px;
@@ -8653,9 +8695,9 @@ body {
   color: #c1c1c1 !important;
 }
 .cid-qSFJGFW5au {
-  padding-top: 90px;
+  padding-top: 120px;
   padding-bottom: 75px;
-  background-image: url("../../../assets/images/21199347-10212483703322062-7049475040437108842-o-2000x150013.jpg");
+  background-image: url("../../../assets/images/21199347-10212483703322062-7049475040437108842-o-2000x150016.jpg");
 }
 .cid-qSFJGFW5au .mbr-section-subtitle {
   letter-spacing: .2rem;
@@ -9905,7 +9947,7 @@ body {
   color: #c1c1c1 !important;
 }
 .cid-qS1tQVpWol {
-  padding-top: 105px;
+  padding-top: 120px;
   padding-bottom: 0px;
   background-image: url("../../../assets/images/table-tennis-table-1014x570.jpg");
 }
@@ -13663,7 +13705,7 @@ body {
   color: #c1c1c1 !important;
 }
 .cid-qS7d7xjlfu {
-  padding-top: 75px;
+  padding-top: 120px;
   padding-bottom: 60px;
   background-image: url("../../../assets/images/table-tennis-table-1014x570.jpg");
 }
@@ -17471,12 +17513,12 @@ body {
 }
 .cid-qSiSDY93u3 {
   padding-top: 120px;
-  padding-bottom: 75px;
+  padding-bottom: 45px;
   background-image: url("../../../assets/images/mbr-2-810x1080.jpg");
 }
 .cid-qSiTpuZKmx {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 45px;
+  padding-bottom: 30px;
   background-color: #ffffff;
 }
 .cid-qSiTpuZKmx .mbr-text,
@@ -18653,7 +18695,7 @@ body {
 .cid-qS2BFhP1Kc {
   padding-top: 15px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/21199347-10212483703322062-7049475040437108842-o-2000x150014.jpg");
+  background-image: url("../../../assets/images/21199347-10212483703322062-7049475040437108842-o-2000x150017.jpg");
 }
 .cid-qS2BFhP1Kc .mbr-section-subtitle {
   color: #000000;
@@ -20314,6 +20356,8 @@ body {
   color: #c1c1c1 !important;
 }
 .cid-qScTSRMm1Z {
+  padding-top: 120px;
+  padding-bottom: 90px;
   background-image: url("../../../assets/images/mbr-1-810x1080.jpg");
 }
 .cid-qScTSRMm1Z .mbr-section-subtitle {
@@ -21562,7 +21606,7 @@ body {
   color: #c1c1c1 !important;
 }
 .cid-qSj0Y35x6f {
-  padding-top: 90px;
+  padding-top: 105px;
   padding-bottom: 90px;
   background-color: #ffffff;
 }
@@ -21624,7 +21668,7 @@ body {
   transition: 0.2s background ease-in-out;
 }
 .cid-qSj7awRD00 {
-  padding-top: 90px;
+  padding-top: 105px;
   padding-bottom: 0px;
   background-image: url("../../../assets/images/mbr-3-810x1080.jpg");
 }
@@ -21632,7 +21676,7 @@ body {
   color: #ffffff;
 }
 .cid-qSj7iERt1l {
-  padding-top: 30px;
+  padding-top: 15px;
   padding-bottom: 15px;
   background-color: #efefef;
 }
@@ -22841,7 +22885,7 @@ body {
   color: #c1c1c1 !important;
 }
 .cid-qSFXPynE2R {
-  padding-top: 90px;
+  padding-top: 105px;
   padding-bottom: 0px;
   background-image: url("../../../assets/images/mbr-3-810x1080.jpg");
 }
