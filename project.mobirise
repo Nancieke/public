@@ -1,9 +1,9 @@
 {
   "settings": {
     "name": "PPK Essenbeek",
-    "currentPage": "fotos.html",
+    "currentPage": "index.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 187,
+    "uniqCompNum": 190,
     "versionPublish": "4.7.7",
     "theme": {
       "name": "mobirise4",
@@ -53,7 +53,7 @@
       }
     ],
     "cookiesAlert": "",
-    "gdpr": ""
+    "gdpr": "By continiung you agree to our<a href='privavcy.html'>Privacy verklaring</a>."
   },
   "pages": {
     "index.html": {
@@ -1907,7 +1907,7 @@
             }
           },
           "_name": "form4",
-          "_customHTML": "<section class=\"mbr-section form4\" group=\"Forms\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"6\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"6\">\n\n        <input type=\"map\" title=\"Kaart\" name=\"googleMap\" place-id=\"ChIJjXTVjFbIw0cRDbNTkePYu2s\" value=\"Heilig Hart & College Parklaan 7 1500 Halle\n\">\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon pictogram\" name=\"showIcons\" checked>\n        <input type=\"checkbox\" title=\"Toon onderverdeling\" name=\"showSubheading\" checked>\n        <input type=\"checkbox\" title=\"Toon contacten\" name=\"showContacts\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Toon formulier\" name=\"showForm\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/21199347-10212483703322062-7049475040437108842-o-2000x15004.jpg\" parallax selected>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#0f7699\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-6\">\n                <div class=\"google-map\" mbr-map=\"googleMap\">\n                </div>\n            </div>\n            <div class=\"col-md-6\">\n                <h2 mbr-if=\"showTitle\" class=\"pb-3 align-left mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    Stuur ons een mailtje</h2>\n                <div>\n                    <div class=\"icon-block pb-3\">\n                        <span mbr-if=\"showIcons\" class=\"icon-block__icon\">\n                            <span mbr-icon class=\"mbri-letter mbr-iconfont\"></span>\n                        </span>\n                        <h4 mbr-if=\"showSubheading\" class=\"icon-block__title align-left mbr-fonts-style\" mbr-theme-style=\"display-5\"><br>Heb je een vraag ? <br>Wil je graag lid worden ?&nbsp;<br><br></h4>\n                    </div>\n                    <div class=\"icon-contacts pb-3\" mbr-if=\"showContacts\">\n                        <h5 mbr-if=\"showSubtitle\" class=\"align-left mbr-fonts-style\" mbr-theme-style=\"display-7\">Laat het ons gerust weten !</h5>\n                        <p mbr-if=\"showText\" class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            Telefoon 0473 49 35 80             \n<br>Email: info@ppkessenbeek.be</p>\n                    </div>\n                </div>\n                <div mbr-form mbr-if=\"showForm\">\n                    <div data-form-alert hidden>Bedankt om het formulier in te vullen!</div>\n                    <form class=\"block mbr-form\" action=\"info@ppkessenbeek.be\" method=\"post\" name=\"Mobirise Form\">\n                        <div class=\"row\">\n                            <div class=\"col-md-6 multi-horizontal\" data-for=\"name\">\n                                <input type=\"text\" class=\"form-control input\" name=\"name\" data-form-field=\"Name\" placeholder=\"Jouw Naam\" required>\n                            </div>\n                            <div class=\"col-md-6 multi-horizontal\" data-for=\"phone\" hidden=\"hidden\">\n                                <input type=\"text\" class=\"form-control input\" name=\"phone\" data-form-field=\"Phone\" placeholder=\"Phone\" required hidden=\"hidden\">\n                            </div>\n                            <div class=\"col-md-12\" data-for=\"email\">\n                                <input type=\"text\" class=\"form-control input\" name=\"email\" data-form-field=\"Email\" placeholder=\"Email\" required>\n                            </div>\n                            <div class=\"col-md-12\" data-for=\"message\">\n                                <textarea class=\"form-control input\" name=\"message\" rows=\"3\" data-form-field=\"Message\" placeholder=\"Schrijf hier je bericht\" style=\"resize:none\"></textarea>\n                            </div>\n                            <div class=\"input-group-btn col-md-12\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" style=\"margin-top: 10px;\">\n                                <a href type=\"submit\" class=\"btn btn-primary btn-form\">VERSTUUR</a>\n                            </div>\n                        </div>\n                    </form>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section form4\" group=\"Forms\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"6\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"6\">\n\n        <input type=\"map\" title=\"Kaart\" name=\"googleMap\" place-id=\"ChIJjXTVjFbIw0cRDbNTkePYu2s\" value=\"Heilig Hart & College Parklaan 7 1500 Halle\n\">\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon pictogram\" name=\"showIcons\" checked>\n        <input type=\"checkbox\" title=\"Toon onderverdeling\" name=\"showSubheading\" checked>\n        <input type=\"checkbox\" title=\"Toon contacten\" name=\"showContacts\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Toon formulier\" name=\"showForm\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/21199347-10212483703322062-7049475040437108842-o-2000x15002.jpg\" parallax selected>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#0f7699\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-6\">\n                <div class=\"google-map\" mbr-map=\"googleMap\">\n                </div>\n            </div>\n            <div class=\"col-md-6\">\n                <h2 mbr-if=\"showTitle\" class=\"pb-3 align-left mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    Stuur ons een mailtje</h2>\n                <div>\n                    <div class=\"icon-block pb-3\">\n                        <span mbr-if=\"showIcons\" class=\"icon-block__icon\">\n                            <span mbr-icon class=\"mbri-letter mbr-iconfont\"></span>\n                        </span>\n                        <h4 mbr-if=\"showSubheading\" class=\"icon-block__title align-left mbr-fonts-style\" mbr-theme-style=\"display-5\"><br>Heb je een vraag ? <br>Wil je graag lid worden ?&nbsp;<br><br></h4>\n                    </div>\n                    <div class=\"icon-contacts pb-3\" mbr-if=\"showContacts\">\n                        <h5 mbr-if=\"showSubtitle\" class=\"align-left mbr-fonts-style\" mbr-theme-style=\"display-7\">Laat het ons gerust weten !</h5>\n                        <p mbr-if=\"showText\" class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                            Telefoon 0473 49 35 80             \n<br>Email: info@ppkessenbeek.be</p>\n                    </div>\n                </div>\n                <div mbr-form mbr-if=\"showForm\">\n                    <div data-form-alert hidden>Bedankt om het formulier in te vullen!</div>\n                    <form class=\"block mbr-form\" action=\"info@ppkessenbeek.be\" method=\"post\" name=\"Mobirise Form\">\n                        <div class=\"row\">\n                            <div class=\"col-md-6 multi-horizontal\" data-for=\"name\">\n                                <input type=\"text\" class=\"form-control input\" name=\"name\" data-form-field=\"Name\" placeholder=\"Jouw Naam\" required>\n                            </div>\n                            <div class=\"col-md-6 multi-horizontal\" data-for=\"phone\" hidden=\"hidden\">\n                                <input type=\"text\" class=\"form-control input\" name=\"phone\" data-form-field=\"Phone\" placeholder=\"Phone\" required hidden=\"hidden\">\n                            </div>\n                            <div class=\"col-md-12\" data-for=\"email\">\n                                <input type=\"text\" class=\"form-control input\" name=\"email\" data-form-field=\"Email\" placeholder=\"Email\" required>\n                            </div>\n                            <div class=\"col-md-12\" data-for=\"message\">\n                                <textarea class=\"form-control input\" name=\"message\" rows=\"3\" data-form-field=\"Message\" placeholder=\"Schrijf hier je bericht\" style=\"resize:none\"></textarea>\n                            </div>\n                            <div class=\"input-group-btn col-md-12\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" style=\"margin-top: 10px;\">\n                                <a href type=\"submit\" class=\"btn btn-primary btn-form\">VERSTUUR</a>\n                            </div>\n                        </div>\n                    </form>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qS1m6V9zLH",
           "_anchor": "form4-2e",
           "_protectedParams": [],
@@ -3004,7 +3004,7 @@
             }
           },
           "_name": "header10",
-          "_customHTML": "<section class=\"header10\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Schermvullend\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Toon pijl\" name=\"showArrow\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/21199347-10212483703322062-7049475040437108842-o-2000x15004.jpg\" selected parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#c1bbbd\">\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-column mbr-white col-lg-8 col-md-10 ml-auto\">\n            <h1 class=\"mbr-section-title align-right mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                Een stukje geschiedenis</h1>\n            <h3 class=\"mbr-section-subtitle align-right mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\"></h3>\n            <p class=\"mbr-text align-right pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">De club is ontstaan in 1970 in de parochie Essenbeek in Halle. \n<br>Rond die periode nam de Katholieke Werkliedenbond (KWB) het initiatief om de werkende mensen uit Essenbeek een paar ontspanningsmogelijkheden aan te bieden. Daarom werd een tafeltennistafel aangekocht en werd er ook gelegenheid aangeboden om te volleyballen (recreatief). Beide kenden onmiddellijk een groot succes, zodat er snel een tweede en een derde tafeltennistafel werd aangekocht, en een buitenvolleybalveld aangelegd. \n<br>\n<br>Wat het tafeltennis betreft, hebben wij dan, gezien het grote sucess, een omzwerving gemaakt langs verschillende parochiale lokalen om uiteindelijk terecht te komen in de parochiezaal van Essenbeek. Daar is dan het idee ontstaan om naast het recreatieve ook met competitie te starten. Zo zijn we schoorvoetend gestart in de competitie van het Katholiek Sportverbond (nu SPORTA) met één ploeg (3 spelers). Dit viel zo goed mee dat we het jaar nadien ook startten in de competitie van de Koninklijke Belgische Tafeltennisbond (KBTT - later VTTL). Wij startten daar met één ploeg (4 spelers) in 4de provinciale, en werden onmiddellijk kampioen in onze reeks. Het volgende jaar schreven we een tweede ploeg in en na een paar jaar speelden we met vier ploegen in de KBTT en twee ploegen in SPORTA. \n<br>\n<br>Ondertussen kreeg de club ook een vaste structuur. De eerste voorzitter werd Freddy Belsack, Amedé Depever werd secretaris en Miel Lots penningmeester. \n<br>\n<br>De club draaide dan op volle toeren tot wij in het jaar 1990 bericht kregen van de KBTT dat onze parochiezaal niet meer voldeed (qua afmetingen) om met vier ploegen competitie te spelen. Dus stonden wij voor de keuze: ofwel twee ploegen schrappen in de competitie, ofwel een ander lokaal vinden. \n<br>\n<br>Na lang zoeken zijn wij dan terechtgekomen in de oude cinemazaal Plaza op de St Rochusstraat in Halle. Dit was ook de glorieperiode van Jean-Michel Saive. Hierdoor kreeg ons ledenaantal een formidabele boost. Wij hebben enkele jaren met elf en soms twaalf ploegen competitie gespeeld. \n<br>\n<br>Uiteindelijk zijn door de slechte staat van het gebouw in 2017 genoodzaakt geweest opnieuw uit te zien naar een ander lokaal. Een zo zijn we tenslotte beland in ons huidig lokaal in het Heilig Hart &amp; College. We hebben er reeds ons eerste competitieseizoen achter de rug en onze jeugdtrainingen kennen er een enorm succes. !\n<br></p>\n            <div class=\"mbr-section-btn align-right\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                <a class=\"btn btn-md btn-primary\" href=\"https://mobirise.com\">LEER MEER</a>\n                <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header10\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Schermvullend\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Toon pijl\" name=\"showArrow\">\n\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/21199347-10212483703322062-7049475040437108842-o-2000x15002.jpg\" selected parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#c1bbbd\">\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-column mbr-white col-lg-8 col-md-10 ml-auto\">\n            <h1 class=\"mbr-section-title align-right mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                Een stukje geschiedenis</h1>\n            <h3 class=\"mbr-section-subtitle align-right mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\"></h3>\n            <p class=\"mbr-text align-right pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">De club is ontstaan in 1970 in de parochie Essenbeek in Halle. \n<br>Rond die periode nam de Katholieke Werkliedenbond (KWB) het initiatief om de werkende mensen uit Essenbeek een paar ontspanningsmogelijkheden aan te bieden. Daarom werd een tafeltennistafel aangekocht en werd er ook gelegenheid aangeboden om te volleyballen (recreatief). Beide kenden onmiddellijk een groot succes, zodat er snel een tweede en een derde tafeltennistafel werd aangekocht, en een buitenvolleybalveld aangelegd. \n<br>\n<br>Wat het tafeltennis betreft, hebben wij dan, gezien het grote sucess, een omzwerving gemaakt langs verschillende parochiale lokalen om uiteindelijk terecht te komen in de parochiezaal van Essenbeek. Daar is dan het idee ontstaan om naast het recreatieve ook met competitie te starten. Zo zijn we schoorvoetend gestart in de competitie van het Katholiek Sportverbond (nu SPORTA) met één ploeg (3 spelers). Dit viel zo goed mee dat we het jaar nadien ook startten in de competitie van de Koninklijke Belgische Tafeltennisbond (KBTT - later VTTL). Wij startten daar met één ploeg (4 spelers) in 4de provinciale, en werden onmiddellijk kampioen in onze reeks. Het volgende jaar schreven we een tweede ploeg in en na een paar jaar speelden we met vier ploegen in de KBTT en twee ploegen in SPORTA. \n<br>\n<br>Ondertussen kreeg de club ook een vaste structuur. De eerste voorzitter werd Freddy Belsack, Amedé Depever werd secretaris en Miel Lots penningmeester. \n<br>\n<br>De club draaide dan op volle toeren tot wij in het jaar 1990 bericht kregen van de KBTT dat onze parochiezaal niet meer voldeed (qua afmetingen) om met vier ploegen competitie te spelen. Dus stonden wij voor de keuze: ofwel twee ploegen schrappen in de competitie, ofwel een ander lokaal vinden. \n<br>\n<br>Na lang zoeken zijn wij dan terechtgekomen in de oude cinemazaal Plaza op de St Rochusstraat in Halle. Dit was ook de glorieperiode van Jean-Michel Saive. Hierdoor kreeg ons ledenaantal een formidabele boost. Wij hebben enkele jaren met elf en soms twaalf ploegen competitie gespeeld. \n<br>\n<br>Uiteindelijk zijn door de slechte staat van het gebouw in 2017 genoodzaakt geweest opnieuw uit te zien naar een ander lokaal. Een zo zijn we tenslotte beland in ons huidig lokaal in het Heilig Hart &amp; College. We hebben er reeds ons eerste competitieseizoen achter de rug en onze jeugdtrainingen kennen er een enorm succes. !\n<br></p>\n            <div class=\"mbr-section-btn align-right\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                <a class=\"btn btn-md btn-primary\" href=\"https://mobirise.com\">LEER MEER</a>\n                <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "qSFJGFW5au",
           "_anchor": "header10-4y",
           "_protectedParams": [],
@@ -3105,7 +3105,7 @@
       "settings": {
         "meta_descr": "Waar en wanneer kan er getraind worden",
         "title": "Trainingen",
-        "order": 9
+        "order": 10
       },
       "components": [
         {
@@ -4746,7 +4746,7 @@
       "settings": {
         "meta_descr": "competitie dagen tafeltennis",
         "title": "Competitie",
-        "order": 7
+        "order": 8
       },
       "components": [
         {
@@ -5275,7 +5275,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Competitie VTTL",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -5849,7 +5849,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "Competitie SPORTA",
-        "order": 6
+        "order": 7
       },
       "components": [
         {
@@ -6423,7 +6423,7 @@
       "settings": {
         "meta_descr": "Web Page Maker Description",
         "title": "Links",
-        "order": 8
+        "order": 9
       },
       "components": [
         {
@@ -7336,7 +7336,7 @@
             }
           },
           "_name": "features16",
-          "_customHTML": "<section class=\"features16\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon naam\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Toon scroll\" name=\"showRole\" checked>\n        <input type=\"checkbox\" title=\"Toon Social\" name=\"showSocial\">\n        <input type=\"checkbox\" title=\"Kaartachtergond\" name=\"bgCard\" checked>\n        <input type=\"color\" title=\"Kaartkleur\" name=\"cardColor\" value=\"#efefef\" condition=\"bgCard\">\n        <select title=\"Teams\" name=\"teams\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select> \n        <select title=\"Social icons\" name=\"socIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        \n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/21199347-10212483703322062-7049475040437108842-o-2000x15005.jpg\" parallax selected>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#f9f9f9\">\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container align-center\">\n        <h2 class=\"pb-3 mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n            ONZE TRAINERS</h2>\n        <h3 class=\"pb-5 mbr-section-subtitle mbr-fonts-style mbr-light\" mbr-theme-style=\"display-1\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Onze Trainers</h3>\n        <div class=\"row media-row\" mbr-list mbr-list-grow=\"teams\">\n            <div class=\"team-item col-lg-3 col-md-6\">\n                <div class=\"item-image\">\n                    <img src=\"@PROJECT_PATH@/assets/images/face6.jpg\" alt title>\n                </div>\n                <div class=\"item-caption py-3\" mbr-if=\"showName || showRole || showSocial\">\n                    <div class=\"item-name px-2\" mbr-if=\"showName\">\n                        <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-name\">Bart Luyckx</p>\n                    </div>\n                    <div class=\"item-role px-2\" mbr-if=\"showRole\" data-app-selector=\".item-role\">\n                        <p>Trainer</p>\n                    </div>\n                    <div class=\"item-social pt-2\" mbr-if=\"showSocial\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"p-1 socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                            <span mbr-if=\"socIcons>1\" mbr-icon=\"\" class=\"p-1 socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                            <span mbr-if=\"socIcons>2\" mbr-icon=\"\" class=\"p-1 socicon-googleplus socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://www.linkedin.com/in/mobirise\" target=\"_blank\">\n                            <span mbr-if=\"socIcons>3\" mbr-icon=\"\" class=\"p-1 socicon-linkedin socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://www.instagram.com/mobirise/\" target=\"_blank\">\n                            <span mbr-if=\"socIcons>4\" mbr-icon=\"\" class=\"p-1 socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" target=\"_blank\">    \n                            <span mbr-if=\"socIcons>5\" mbr-icon=\"\" class=\"p-1 socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n        <div class=\"team-item col-lg-3 col-md-6\">\n                <div class=\"item-image\">\n                    <img src=\"@PROJECT_PATH@/assets/images/christophe-228x357.jpg\" alt title>\n                </div>\n                <div class=\"item-caption py-3\" mbr-if=\"showName || showRole || showSocial\">\n                    <div class=\"item-name px-2\" mbr-if=\"showName\">\n                        <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-name\">\n                           Christophe Severs</p>\n                    </div>\n                    <div class=\"item-role px-2\" mbr-if=\"showRole\" data-app-selector=\".item-role\">\n                        <p>Trainer</p>\n                    </div>\n                    <div class=\"item-social pt-2\" mbr-if=\"showSocial\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"p-1 socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                            <span mbr-if=\"socIcons>1\" mbr-icon=\"\" class=\"p-1 socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                            <span mbr-if=\"socIcons>2\" mbr-icon=\"\" class=\"p-1 socicon-googleplus socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://www.linkedin.com/in/mobirise\" target=\"_blank\">\n                            <span mbr-if=\"socIcons>3\" mbr-icon=\"\" class=\"p-1 socicon-linkedin socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://www.instagram.com/mobirise/\" target=\"_blank\">\n                            <span mbr-if=\"socIcons>4\" mbr-icon=\"\" class=\"p-1 socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" target=\"_blank\">    \n                            <span mbr-if=\"socIcons>5\" mbr-icon=\"\" class=\"p-1 socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div><div class=\"team-item col-lg-3 col-md-6\">\n                <div class=\"item-image\">\n                    <img src=\"@PROJECT_PATH@/assets/images/trainerjan-3-510x765.jpg\" alt title>\n                </div>\n                <div class=\"item-caption py-3\" mbr-if=\"showName || showRole || showSocial\">\n                    <div class=\"item-name px-2\" mbr-if=\"showName\">\n                        <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-name\">\n                           Jan Dammans</p>\n                    </div>\n                    <div class=\"item-role px-2\" mbr-if=\"showRole\" data-app-selector=\".item-role\">\n                        <p>Jeugd Coordinator<br>Coach</p>\n                    </div>\n                    <div class=\"item-social pt-2\" mbr-if=\"showSocial\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"p-1 socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                            <span mbr-if=\"socIcons>1\" mbr-icon=\"\" class=\"p-1 socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                            <span mbr-if=\"socIcons>2\" mbr-icon=\"\" class=\"p-1 socicon-googleplus socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://www.linkedin.com/in/mobirise\" target=\"_blank\">\n                            <span mbr-if=\"socIcons>3\" mbr-icon=\"\" class=\"p-1 socicon-linkedin socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://www.instagram.com/mobirise/\" target=\"_blank\">\n                            <span mbr-if=\"socIcons>4\" mbr-icon=\"\" class=\"p-1 socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" target=\"_blank\">    \n                            <span mbr-if=\"socIcons>5\" mbr-icon=\"\" class=\"p-1 socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div></div>    \n    </div>\n</section>",
+          "_customHTML": "<section class=\"features16\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon naam\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Toon scroll\" name=\"showRole\" checked>\n        <input type=\"checkbox\" title=\"Toon Social\" name=\"showSocial\">\n        <input type=\"checkbox\" title=\"Kaartachtergond\" name=\"bgCard\" checked>\n        <input type=\"color\" title=\"Kaartkleur\" name=\"cardColor\" value=\"#efefef\" condition=\"bgCard\">\n        <select title=\"Teams\" name=\"teams\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select> \n        <select title=\"Social icons\" name=\"socIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        \n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/21199347-10212483703322062-7049475040437108842-o-2000x15003.jpg\" parallax selected>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#f9f9f9\">\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container align-center\">\n        <h2 class=\"pb-3 mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n            ONZE TRAINERS</h2>\n        <h3 class=\"pb-5 mbr-section-subtitle mbr-fonts-style mbr-light\" mbr-theme-style=\"display-1\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Onze Trainers</h3>\n        <div class=\"row media-row\" mbr-list mbr-list-grow=\"teams\">\n            <div class=\"team-item col-lg-3 col-md-6\">\n                <div class=\"item-image\">\n                    <img src=\"@PROJECT_PATH@/assets/images/face6.jpg\" alt title>\n                </div>\n                <div class=\"item-caption py-3\" mbr-if=\"showName || showRole || showSocial\">\n                    <div class=\"item-name px-2\" mbr-if=\"showName\">\n                        <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-name\">Bart Luyckx</p>\n                    </div>\n                    <div class=\"item-role px-2\" mbr-if=\"showRole\" data-app-selector=\".item-role\">\n                        <p>Trainer</p>\n                    </div>\n                    <div class=\"item-social pt-2\" mbr-if=\"showSocial\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"p-1 socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                            <span mbr-if=\"socIcons>1\" mbr-icon=\"\" class=\"p-1 socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                            <span mbr-if=\"socIcons>2\" mbr-icon=\"\" class=\"p-1 socicon-googleplus socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://www.linkedin.com/in/mobirise\" target=\"_blank\">\n                            <span mbr-if=\"socIcons>3\" mbr-icon=\"\" class=\"p-1 socicon-linkedin socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://www.instagram.com/mobirise/\" target=\"_blank\">\n                            <span mbr-if=\"socIcons>4\" mbr-icon=\"\" class=\"p-1 socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" target=\"_blank\">    \n                            <span mbr-if=\"socIcons>5\" mbr-icon=\"\" class=\"p-1 socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n        <div class=\"team-item col-lg-3 col-md-6\">\n                <div class=\"item-image\">\n                    <img src=\"@PROJECT_PATH@/assets/images/christophe-228x357.jpg\" alt title>\n                </div>\n                <div class=\"item-caption py-3\" mbr-if=\"showName || showRole || showSocial\">\n                    <div class=\"item-name px-2\" mbr-if=\"showName\">\n                        <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-name\">\n                           Christophe Severs</p>\n                    </div>\n                    <div class=\"item-role px-2\" mbr-if=\"showRole\" data-app-selector=\".item-role\">\n                        <p>Trainer</p>\n                    </div>\n                    <div class=\"item-social pt-2\" mbr-if=\"showSocial\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"p-1 socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                            <span mbr-if=\"socIcons>1\" mbr-icon=\"\" class=\"p-1 socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                            <span mbr-if=\"socIcons>2\" mbr-icon=\"\" class=\"p-1 socicon-googleplus socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://www.linkedin.com/in/mobirise\" target=\"_blank\">\n                            <span mbr-if=\"socIcons>3\" mbr-icon=\"\" class=\"p-1 socicon-linkedin socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://www.instagram.com/mobirise/\" target=\"_blank\">\n                            <span mbr-if=\"socIcons>4\" mbr-icon=\"\" class=\"p-1 socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" target=\"_blank\">    \n                            <span mbr-if=\"socIcons>5\" mbr-icon=\"\" class=\"p-1 socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div><div class=\"team-item col-lg-3 col-md-6\">\n                <div class=\"item-image\">\n                    <img src=\"@PROJECT_PATH@/assets/images/trainerjan-3-510x765.jpg\" alt title>\n                </div>\n                <div class=\"item-caption py-3\" mbr-if=\"showName || showRole || showSocial\">\n                    <div class=\"item-name px-2\" mbr-if=\"showName\">\n                        <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-name\">\n                           Jan Dammans</p>\n                    </div>\n                    <div class=\"item-role px-2\" mbr-if=\"showRole\" data-app-selector=\".item-role\">\n                        <p>Jeugd Coordinator<br>Coach</p>\n                    </div>\n                    <div class=\"item-social pt-2\" mbr-if=\"showSocial\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"p-1 socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                            <span mbr-if=\"socIcons>1\" mbr-icon=\"\" class=\"p-1 socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                            <span mbr-if=\"socIcons>2\" mbr-icon=\"\" class=\"p-1 socicon-googleplus socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://www.linkedin.com/in/mobirise\" target=\"_blank\">\n                            <span mbr-if=\"socIcons>3\" mbr-icon=\"\" class=\"p-1 socicon-linkedin socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://www.instagram.com/mobirise/\" target=\"_blank\">\n                            <span mbr-if=\"socIcons>4\" mbr-icon=\"\" class=\"p-1 socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" target=\"_blank\">    \n                            <span mbr-if=\"socIcons>5\" mbr-icon=\"\" class=\"p-1 socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div></div>    \n    </div>\n</section>",
           "_cid": "qS2BFhP1Kc",
           "_anchor": "features16-2s",
           "_protectedParams": [],
@@ -7437,7 +7437,7 @@
       "settings": {
         "meta_descr": "Site Creator Description",
         "title": "lid worden?",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -7967,7 +7967,7 @@
       "settings": {
         "meta_descr": "Web Generator Description",
         "title": "Fotoalbum",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -8977,7 +8977,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "Agenda",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -9473,7 +9473,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "Fotos",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -9976,6 +9976,438 @@
           "_customHTML": "<section class=\"features17\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Kaartachtergond\" name=\"crdBg\" checked>\n        <input type=\"color\" title=\"Kaartkleur\" name=\"crdColor\" value=\"#ffffff\" condition=\"crdBg\">\n        <select title=\"Kaarten\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"../_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#efefef\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container-fluid\">\n        <div class=\"media-container-row\" mbr-cards=\"bootstrap\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <a href=\"fotos.html\"><img src=\"@PROJECT_PATH@/assets/images/30167641-10214235360512397-6492915526735191027-o-928x696.jpg\" alt=\"Mobirise\" title></a>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            <a href=\"fotos.html\">Spaghetti &amp; Crocques Festijn</a><br><a href=\"fotos.html\">2018</a></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Reeds voor de 4de maal organiseerde de Jeugd van PPK Essenbeek haar Spaghettifestijn in het Jeugdcentrum Stroppen op 20 &amp; 21 April 2018</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <a href=\"fotos.html\"><img src=\"@PROJECT_PATH@/assets/images/31416852-10214283949607094-6102761327302506195-n-486x365.jpg\" alt=\"Mobirise\" title></a>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            <a href=\"fotos.html\">Club Kampioenschap&nbsp;</a><br><a href=\"fotos.html\">2017-2018</a></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Op vrijdag 27 April werd er onderling uitgevochten wie er clubkampioen 2018 werd ! Na een spannende strijd heeft Nick Hedges zich gekroond tot clubkampioen ! Jan Dammans werd 2de. &nbsp;</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <a href=\"fotos.html\"><img src=\"@PROJECT_PATH@/assets/images/20994301-10155664001541170-4320962875911354636-n-532x299.jpg\" alt=\"Mobirise\" title></a>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><a href=\"page17.html\">Verhuis 2017</a></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            September 2017 zijn we verhuisd naar ons nieuw lokaal in het Heilig Hart &amp; College.</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <a href=\"fotos.html\"><img src=\"@PROJECT_PATH@/assets/images/21414722-10212558997884379-7202720539491727453-o-532x399.jpg\" alt=\"Mobirise\" title></a>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            <a href=\"fotos.html\">Opendeur 2017</a></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                           Inhuldiging van ons nieuw lokaal in stijl !. Kilomo Vitta en Laurens Devos brachten ons een bezoekje!</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 4\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/21055209_1612501642128449_4839320740362681336_o-532x399.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            <a href=\"page17.html\">Verhuis 2017</a></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            September 2017 zijn we verhuisd naar ons nieuw lokaal in het Heilig Hart &amp; College.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 5\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3',\n                             'col-lg-2': cardsAmount == '6',\n                             'my-col': cardsAmount=='5'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"../_images/img/02.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Mobiel-vriendelijk\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Alle sites die u met Mobirise maakt, zijn mobielvriendelijk. U hoeft geen speciale mobiele versie van uw site te maken.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qSFXPBvDkh",
           "_anchor": "features17-55",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page17.html": {
+      "settings": {
+        "meta_descr": "Web Page Creator Description",
+        "title": "Privacy",
+        "order": 1
+      },
+      "components": [
+        {
+          "_name": "menu1",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#465052\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"http://www.ppkessenbeek.be\">\n                         <img src=\"@PROJECT_PATH@/assets/images/logoessenbeek-122x157.jpg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\">\n                        PPK ESSENBEEK&nbsp;</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>\n                        \n                        Welkom</a></li><li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link text-white dropdown-toggle\" href=\"overons.html\" data-app-selector=\".nav-link,.dropdown-item\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">\n                        Over Ons &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item\" href=\"overons.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Wie zijn wij ?</a><a class=\"text-white dropdown-item\" href=\"geschiedenis.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Geschiedenis<br></a><a class=\"text-white dropdown-item\" href=\"Bestuur.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Het Bestuur<br></a><a class=\"text-white dropdown-item\" href=\"trainers.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Onze Trainers<br></a></div>\n                </li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"agenda.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbri-calendar mbr-iconfont mbr-iconfont-btn\"></span>\n                        \n                        Agenda</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Trainingen.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Trainingen &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"competitie.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Competitie &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white dropdown-toggle\" href=\"Trainingen.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\" data-app-placeholder=\"Type Text\">Praktisch &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item\" href=\"uren.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Openingsuren</a><a class=\"text-white dropdown-item\" href=\"locatie.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Waar kan je ons vinden<br></a><a class=\"text-white dropdown-item\" href=\"lid-worden.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Lid worden ?<br></a><a class=\"text-white dropdown-item\" href=\"links.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Nuttige Links</a></div></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"page17.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">\n                        Fotoalbum &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"Contact.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\"><span class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(239, 239, 239);\"></span>\n                        Contact &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                <a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">\n                    <span class=\"mbri-save mbr-iconfont mbr-iconfont-btn \" data-app-selector=\".mbr-iconfont-btn\"></span>\n                    Try It Now!\n                </a>\n            </div>\n        </div>\n    </nav>\n</section>",
+          "_styles": {
+            ".navbar": {
+              "padding": ".5rem 0",
+              "background": "@menuBgColor",
+              "transition": "none",
+              "min-height": "77px"
+            },
+            ".navbar-dropdown.bg-color.transparent.opened": {
+              "background": "@menuBgColor"
+            },
+            "a": {
+              "font-style": "normal"
+            },
+            ".nav-item": {
+              "& span": {
+                "padding-right": "0.4em",
+                "line-height": "0.5em",
+                "vertical-align": "text-bottom",
+                "position": "relative",
+                "text-decoration": "none"
+              },
+              "& a": {
+                "display": "flex",
+                "align-items": "center",
+                "justify-content": "center",
+                "padding": "0.7rem 0 !important",
+                "margin": "0rem .65rem !important"
+              }
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".btn": {
+              "padding": "0.4rem 1.5rem",
+              ".mbr-iconfont": {
+                "font-size": "1.6rem"
+              },
+              "display": "inline-flex",
+              "align-items": "center"
+            },
+            ".menu-logo": {
+              "margin-right": "auto",
+              ".navbar-brand": {
+                "display": "flex",
+                "margin-left": "5rem",
+                "padding": "0",
+                "transition": "padding .2s",
+                "min-height": "3.8rem",
+                "align-items": "center",
+                ".navbar-caption-wrap": {
+                  "display": "-webkit-flex",
+                  "-webkit-align-items": "center",
+                  "align-items": "center",
+                  "word-break": "break-word",
+                  "min-width": "7rem",
+                  "margin": ".3rem 0",
+                  ".navbar-caption": {
+                    "line-height": "1.2rem !important",
+                    "padding-right": "2rem"
+                  }
+                },
+                ".navbar-logo": {
+                  "font-size": "4rem",
+                  "transition": "font-size 0.25s",
+                  "& img": {
+                    "display": "flex"
+                  },
+                  ".mbr-iconfont": {
+                    "transition": "font-size 0.25s"
+                  }
+                }
+              }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "flex-end",
+              "-webkit-justify-content": "flex-end",
+              "padding-right": "5rem",
+              "width": "auto",
+              ".navbar-nav": {
+                "flex-wrap": "wrap",
+                "-webkit-flex-wrap": "wrap",
+                "padding-left": "0",
+                ".nav-item": {
+                  "-webkit-align-self": "center",
+                  "align-self": "center"
+                }
+              },
+              ".navbar-buttons": {
+                "padding-left": "0",
+                "padding-bottom": "0"
+              }
+            },
+            ".dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                "display": "none",
+                "position": "absolute",
+                "min-width": "5rem",
+                "padding-top": "1.4rem",
+                "padding-bottom": "1.4rem",
+                "text-align": "left",
+                ".dropdown-item": {
+                  "width": "auto",
+                  "padding": "0.235em 1.5385em 0.235em 1.5385em !important",
+                  "&::after": {
+                    "right": "0.5rem"
+                  }
+                },
+                ".dropdown-submenu": {
+                  "margin": "0"
+                }
+              },
+              "&.open > .dropdown-menu": {
+                "display": "block"
+              }
+            },
+            ".navbar-toggleable-sm": {
+              "&.opened:after": {
+                "position": "absolute",
+                "width": "100vw",
+                "height": "100vh",
+                "content": "''",
+                "background-color": "rgba(0, 0, 0, 0.1)",
+                "left": "0",
+                "bottom": "0",
+                "transform": "translateY(100%)",
+                "-webkit-transform": "translateY(100%)",
+                "z-index": "1000"
+              }
+            },
+            ".navbar.navbar-short": {
+              "min-height": "60px",
+              "transition": "all .2s",
+              "& .navbar-toggler-right": {
+                "top": "20px"
+              },
+              "& .navbar-logo a": {
+                "font-size": "2.5rem !important",
+                "line-height": "2.5rem",
+                "transition": "font-size 0.25s",
+                "& .mbr-iconfont": {
+                  "font-size": "2.5rem !important"
+                },
+                "& img": {
+                  "height": "3rem !important"
+                }
+              },
+              "& .navbar-brand": {
+                "min-height": "3rem"
+              }
+            },
+            "button.navbar-toggler": {
+              "width": "31px",
+              "height": "18px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "top": "1.5rem",
+              "right": "1rem",
+              "&:focus": {
+                "outline": "none"
+              },
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".collapsed": {
+              "&.navbar-expand": {
+                "flex-direction": "column"
+              },
+              ".btn": {
+                "display": "flex"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".navbar-expand": {
+                "flex-direction": "column"
+              },
+              "img": {
+                "height": "3.8rem !important"
+              },
+              ".btn": {
+                "display": "flex"
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (min-width: 767px)": {
+              ".menu-logo": {
+                "flex-shrink": "0"
+              }
+            },
+            ".navbar-collapse": {
+              "flex-basis": "auto"
+            },
+            ".nav-link:hover, .dropdown-item:hover": {
+              "color": "@itemsHoverColor !important"
+            }
+          },
+          "_cid": "qRxN4RRltA",
+          "_anchor": "menu1-57",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p><b>1.\tDisclaimer\n</b></p><p><span style=\"font-size: 1rem;\">Deze website is eigendom van SPORTKLUB PLAZA vzw (verder PPK ESSENBEEK genoemd), bereikbaar op volgende contactgegevens:</span><br></p><div>\n</div><div>VZW SPORTKLUB PLAZA \n</div><div>Parklaan 7\n</div><div>1500 Halle \n</div><div>Tel. 0473 49 35 80\n</div><div>E-mail: info@ppkessenbeek.be\n</div><div><br></div><div>Door de toegang tot en het gebruik van deze website, verklaart u zich uitdrukkelijk akkoord met volgende algemene voorwaarden:\n</div><div><br></div><div><b>1.1\tIntellectuele eigendomsrechten\n</b></div><div><br></div><div>De voltallige inhoud van deze site (merken, logo's, tekeningen, product- of bedrijfsnamen, teksten, beelden... kortom alles wat u op deze website terugvindt) zijn beschermd door intellectuele rechten en behoren toe aan PPK ESSENBEEK of rechthoudende derden.</div><div><br></div><div>\n</div><div><b>1.2\tBeperking van aansprakelijkheid\n</b></div><div><br></div><div>De informatie op deze website is algemeen. Dat wil zeggen dat zij niet aangepast is aan persoonlijke of specifieke omstandigheden van de gebruiker. Niets op deze website kan als een persoonlijk, professioneel of juridisch advies aan de gebruiker worden beschouwd.</div><div><br></div><div>\n</div><div>PPK ESSENBEEK ziet erop toe dat de ter beschikking gestelde informatie volledig, juist, nauwkeurig en up to date is. Ondanks die inspanning, kunnen er zich altijd onjuistheden voordoen in de ter beschikking gestelde informatie. Mocht de verstrekte informatie fout of onbeschikbaar zijn, zal PPK ESSENBEEK dat zo snel mogelijk rechtzetten. PPK ESSENBEEK kan evenwel niet aansprakelijk gesteld worden voor rechtstreekse of onrechtstreekse schade, die ontstaat uit het gebruik van de informatie op deze website. Indien u onjuistheden vaststelt op deze website, kan u de beheerder van de website contacteren.</div><div><br></div><div>\n</div><div>De inhoud van de website (hyperlinks inbegrepen) kan te allen tijde en zonder aankondiging of kennisgeving aangepast, gewijzigd of aangevuld worden. PPK ESSENBEEK geeft geen garanties voor de goede werking van de website en kan op geen enkele wijze aansprakelijk gehouden worden voor een slechte werking of tijdelijke onbeschikbaarheid van de website. PPK ESSENBEEK is niet verantwoordelijk voor enige vorm van rechtstreekse of onrechtstreekse schade, die zou voortvloeien uit de toegang tot of het gebruik van deze website.</div><div><br></div><div>\n</div><div>Het is eveneens onmogelijk om PPK ESSENBEEK, tegenover eender wie, op directe, indirecte of bijzonder wijze, aansprakelijk te stellen voor schade te wijten aan het gebruik van deze site of haar hyperlinks. Ook voor alle verliezen, werkonderbrekingen, beschadigingen van programma's of andere gegevens op het computersysteem, van apparatuur, programmatuur of andere eigendommen van de gebruiker kan PPK ESSENBEEK niet aansprakelijk gesteld worden.\n</div><div>\n</div><div><br><span style=\"font-size: 1rem;\">De website kan hyperlinks naar websites of pagina's van derden bevatten of daar onrechtstreeks naar verwijzen. Het plaatsen van links naar deze website of pagina's impliceert op geen enkele wijze een impliciete goedkeuring van de inhoud ervan. PPK ESSENBEEK verklaart uitdrukkelijk dat zij geen zeggenschap heeft over de inhoud of over andere kenmerken van de gelinkte website en kan in geen geval aansprakelijk worden gehouden voor enige vorm van schade die uit het gebruik van de gelinkte websites zou voortvloeien.&nbsp;</span></div><div><span style=\"font-size: 1rem;\"><br></span></div><div>\n</div><div><b>1.3\tRecht op afbeelding</b></div><div><br></div><div> \n</div><div>Door aansluiting geeft het lid aan PPK ESSENBEEK de toelating om in het kader van de activiteiten van de club afbeeldingen van hem/haar te maken, alsook om die afbeeldingen te gebruiken ter promotie van clubactiviteiten.\n</div><div>Het lid heeft evenwel het recht om, indien er gewichtige redenen voorhanden zijn, deze toestemming op elk moment in te trekken. Eventuele schade die de intrekking voor PPK ESSENBEEK tot gevolg heeft, zal door het lid worden vergoed.\n</div><div>\n</div><div><br></div><div><b>1.4\tToepasselijk recht en bevoegde rechtbanken\n</b></div><div><br></div><div>Het Belgisch recht is van toepassing op deze website. In geval van een geschil zijn enkel de rechtbanken van het arrondissement Brussel en Halle-Vilvoorde bevoegd.\n</div><div>\n</div><div><br></div><div><b>2.\tPrivacy\n</b></div><div><br></div><div><b>2.1\tAlgemeen\n</b></div><div>\n</div><div><br></div><div>PPK ESSENBEEK hecht veel waarde aan je privacy en de bescherming van je persoonsgegevens. \n</div><div>\n</div><div>In deze privacyverklaring willen we heldere en transparante informatie geven over hoe wij omgaan met persoonsgegevens. Wij doen er alles aan om je privacy te waarborgen en gaan daarom zorgvuldig om met persoonsgegevens. PPK ESSENBEEK houdt zich in alle gevallen aan de toepasselijke wet- en regelgeving, waaronder de Algemene Verordening Gegevensbescherming (ook gekend als GDPR, Verordening EU 2016/679).  \n</div><div>\n</div><div>Dit brengt met zich mee dat wij in ieder geval:\n</div><div>\n</div><div>•\tje persoonsgegevens verwerken in overeenstemming met het doel waarvoor deze zijn verstrekt, deze doelen en type persoonsgegevens zijn beschreven in deze Privacyverklaring;\n</div><div>•\tverwerking van je persoonsgegevens beperkt is tot enkel die gegevens welke nodig zijn voor de doeleinden waarvoor ze worden verwerkt;\n</div><div>•\tvragen om je uitdrukkelijke toestemming als wij deze nodig hebben voor de verwerking van je persoonsgegevens;\n</div><div>\n</div><div>\n</div><div>\n</div><div>•\tpassende technische en organisatorische maatregelen hebben genomen zodat de beveiliging van je persoonsgegevens gewaarborgd is;\n</div><div>•\tgeen persoonsgegevens doorgeven aan andere partijen, tenzij dit nodig is voor uitvoering van de doeleinden waarvoor ze zijn verstrekt;\n</div><div>•\top de hoogte zijn van je rechten als betrokken persoon omtrent je persoonsgegevens, je hierop willen attent maken en deze willen  respecteren.\n</div><div>\n</div><div>\n</div><div><br></div><div>Als PPK ESSENBEEK zijn wij verantwoordelijk voor de verwerking van je persoonsgegevens. Indien je na het doornemen van onze privacyverklaring, of in algemenere zin, vragen heeft hierover of contact met ons wenst op te nemen kan dit via onderstaande contactgegevens:\n</div><div>\n</div><div><br></div><div>PPK ESSENBEEK\n</div><div>Parklaan 7 – 1500 Halle\n</div><div>info@ppkessenbeek.be\n</div><div>\n</div><div>\n</div><div><br></div><div><b>Aan wie is deze privacyverklaring gericht ?\n</b></div><div>\n</div><div><br></div><div>Deze privacyverklaring is van toepassing op al onze huidige en vroegere leden, deelnemers aan activiteiten, personen die belangstelling tonen of toonden voor onze activiteiten.\n</div><div>\n</div><div><br></div><div><b>2.2\tWaarom verwerken wij welke persoonsgegevens?</b></div><div><br></div><div>\n</div><div>Je persoonsgegevens worden door PPK ESSENBEEK verwerkt ten behoeve van de volgende doeleinden en rechtsgronden:\n</div><div>\n</div><div>•\tHet voeren van ledenadministratie (gerechtvaardigd belang)\n</div><div>•\tHet bekomen van subsidiëring door de overheid (wettelijke verplichting)\n</div><div>•\tHet versturen van informatie over onze activiteiten, nieuwsbrieven en uitnodigingen (mits toestemming)\n</div><div>• &nbsp;Het organiseren van de sportieve voorbereiding en opleiding\n</div><div>• &nbsp;Clubadministratie (gerechtvaardigd belang)\n</div><div>• &nbsp;Sportieve administratie in het kader van stages, kampen,… (gerechtvaardigd belang)\n</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* Het deelnemen aan competities en tornooien\n</div><div>• &nbsp;Sportieve administratie (gerechtvaardigd belang)\n</div><div>• &nbsp;Organisatie van een recreatief sportevenement (uitvoering overeenkomst)\n</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* Organiseren van niet-sportgerelateerde evenementen (uitvoering overeenkomst)\n</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; * Promotie, PR en communicatie waaronder\n</div><div>• &nbsp;Het beheren van social media d.m.v. het publiceren van sfeerfoto’s (gerechtvaardigd belang)\n</div><div>• &nbsp;Het beheren van social media d.m.v. gerichte foto’s (mits toestemming)\n</div><div>• &nbsp;Het beheren van de clubwebsite (gerechtvaardigd belang)\n</div><div>\n</div><div>\n</div><div>\n</div><div><br></div><div><b>2.3\tWelke gegevens verwerken we?\n</b></div><div><br></div><div>Wij kunnen  de volgende persoonsgegevens van je vragen, opslaan, verzamelen en verwerken voor de volgende doelstellingen  : \n</div><div>•\tIdentificatiegegevens : naam, voornaam\n</div><div>•\tPrivé-contactgegevens :  telefoonnummer, e-mail, adres\n</div><div>•\tRijksregisternummer. In het decreet houdende de erkenning en subsidiëring van de georganiseerde sportsector van 10 juni 2016 bepaalt de Vlaamse Overheid de gegevens die minimaal opgenomen moeten worden in het ledenbestand van een Vlaamse sportfederatie. Met het oog op een unieke identificatie zijn de sportfederatie en haar aangesloten sportclubs via dit decreet gemachtigd om het rijksregisternummer van hun leden op te vragen en te bewaren in het ledenbestand.\n</div><div>•\tPersoonlijke kenmerken : geslacht, geboortedatum, geboorteplaats, nationaliteit\n</div><div>•\tSportieve gegevens (o.a. categorie, uitslagen, aanwezigheden, …)\n</div><div>•\tBeeldmateriaal (foto’s, video’s, opnames, …) \n</div><div>\n</div><div>We verzamelen enkel persoonsgegevens die je zelf aan ons meedeelt op verschillende manieren (o.a. inschrijvingsformulieren, invul- en contactformulieren op onze website, persoonlijk/telefonisch/e-mail contact, …).  \n</div><div>\n</div><div>Wij verzamelen geen persoonsgegevens via derden, met uitzondering van de informatie ontvangen van de aangesloten verenigingen/clubs of federaties.\n</div><div>\n</div><div>Er wordt geen enkele categorie van personen onderworpen aan eender welke vorm van geautomatiseerde besluitvorming of profilering.\n</div><div>\n</div><div><br></div><div><b>2.4\tVerstrekking van gegevens aan derden-verwerkers\n</b></div><div><br></div><div>De gegevens die je aan ons geeft kunnen wij aan derde partijen verstrekken indien dit noodzakelijk is voor uitvoering van de hierboven beschreven doeleinden. \n</div><div>\n</div><div>Zo maken wij gebruik van een derde partij (verwerker) voor:\n</div><div>•\thet opslaan en verwerken van gegevens in de Cloud (via Dropbox)\n</div><div>•\thet verzorgen van de internet omgeving (webhosting, mailhosting);\n</div><div>•\thet verzorgen van IT-infrastructuur (o.a. IT netwerk, servers, …);\n</div><div>•\thet verzorgen van de (financiële, club en sportieve) administratie \n</div><div>•\thet verzekeren van onze leden, deelnemers en vrijwilligers\n</div><div>•\thet verzorgen (en verspreiden) van nieuwsbrieven en uitnodigingen.\n</div><div>\n</div><div>Wij geven nooit persoonsgegevens door aan andere verwerkers (externe dienstverleners) dan diegene waarmee we een verwerkersovereenkomst hebben afgesloten of waarvan dezelfde bepalingen zijn overgenomen in de contractvoorwaarden. \n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>Met deze beide partijen maken wij hierin uiteraard de nodige afspraken om de beveiliging van je persoonsgegevens te waarborgen.\n</div><div>\n</div><div><br></div><div><b>2.5\t Verstrekking van gegevens aan derden-ontvangers</b></div><div><b><br></b></div><div><b>\n</b></div><div>Wij delen persoonsgegevens met de volgende externe partijen:\n</div><div>-\tSubsidiërende overheden \n</div><div>-\tPartners waarmee we in samenwerking activiteiten organiseren (activiteiten die met twee of meer organisaties zijn uitgewerkt en waarvoor deelnemerslijsten worden uitgewisseld)\n</div><div>-\tDe sportfederatie, zijnde de Vlaamse Tafeltennisliga (VTTL) en Sporta-Federatie VZW.\n</div><div>\n</div><div><br></div><div>Met deze partijen (derden-ontvangers) maken wij uiteraard de nodige afspraken om de beveiliging van je persoonsgegevens te waarborgen en ervoor te zorgen dat je gegevens vertrouwelijk worden behandeld.\n</div><div>\n</div><div><br></div><div>Verder zullen wij de verstrekte gegevens niet aan derden doorgeven tenzij dit wettelijk verplicht en/of toegestaan is, zoals bv. in het kader van een politioneel of gerechtelijk onderzoek.\n</div><div>\n</div><div>Op geen enkel moment verkopen of verhuren wij je persoonsgegevens aan derde partijen.\n</div><div><br></div><div>Wij geven je contactgegevens ook nooit door aan derden voor commerciële doeleinden.\n</div><div>\n</div><div>Tevens kunnen wij persoonsgegevens delen met derden indien je ons hier toestemming voor geeft.  Deze toestemming kan te allen tijde ingetrokken worden, zonder dat dit afbreuk doet aan de rechtmatigheid van de verwerking voor de intrekking daarvan.\n</div><div>\n</div><div><br></div><div>Wij verstrekken geen persoonsgegevens aan partijen die gevestigd zijn buiten de Europese Economische Ruimte.\n</div><div>\n</div><div><br></div><div><b>2.6\tMinderjarigen\n</b></div><div><br></div><div>Wij verwerken alleen persoonsgegevens van personen jonger dan 18  jaar indien daarvoor toestemming is gegeven door de ouder of wettelijke vertegenwoordiger.\n</div><div>\n</div><div>Hierbij kunnen volgende gegevens van de ouders worden verwerkt : identificatiegegevens en privé-contactgegevens (voor ouderlijke toestemming)\n</div><div>\n</div><div><br></div><div><b>2.7\tBewaartermijn</b></div><div><br></div><div>\n</div><div>PPK ESSENBEEK bewaart persoonsgegevens niet langer dan noodzakelijk voor het realiseren van het doel waarvoor deze zijn verstrekt, met in acht name van de termijn die noodzakelijk is om aan de wettelijke vereisten te voldoen (o.a. op gebied van boekhouding). Bewaartermijnen kunnen evenwel per doel verschillen.</div><div><br></div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div>PPK ESSENBEEK verbindt zich ertoe de gegevens niet langer bij te houden dan noodzakelijk voor het doel waarvoor deze zijn verstrekt dan wel op grond van de wet is vereist. PPK Essenbeek verbindt zich ertoe de gegevens niet langer bij te houden dan 5 jaar.\n</div><div>\n</div><div><br></div><div><b>2.8\tBeveiliging van de gegevens\n</b></div><div><br></div><div>Volgende passende technische en organisatorische maatregelen zijn genomen om persoonsgegevens te beschermen tegen onrechtmatige verwerking:\n</div><div>\n</div><div>•\tAlle personen die namens PPK ESSENBEEK  van je gegevens kennis kunnen nemen, zijn gehouden aan geheimhouding daarvan.\n</div><div>•\tWe hanteren een gebruikersnaam en wachtwoordbeleid op al onze systemen;\n</div><div>•\tWij maken systematisch back-ups van de persoonsgegevens om deze te kunnen herstellen bij fysieke of technische incidenten;\n</div><div>•\tWe testen en evalueren op geregelde tijdstippen onze maatregelen, en stellen bij indien nodig;\n</div><div>•\tOnze medewerkers zijn geïnformeerd over het belang van de bescherming van persoonsgegevens.  \n</div><div>\n</div><div><br></div><div><b>2.9\tJe rechten omtrent je gegevens</b></div><div><br></div><div>\n</div><div>Je hebt recht van inzage en kopie van de persoonsgegevens die op jou betrekking hebben.\n</div><div><br></div><div>Je hebt recht op verbetering en aanvulling wanneer je gegevens onjuist of onvolledig zijn.\n</div><div>\n</div><div><br></div><div>Je hebt het recht op het gegevenswissing (verwijdering) van de persoonsgegevens  die we van jou ontvangen hebben, en die niet langer strikt noodzakelijk zijn voor de doeleinden waarvoor ze werden verwerkt. Wij behouden ons wel het recht voor te bepalen of je verzoek gerechtvaardigd is.\n</div><div>\n</div><div><br></div><div>Je hebt het recht op beperking van gegevensverwerking : indien je bezwaar hebt tegen de verwerking van bepaalde gegevens, kan je vragen om deze verwerking te stoppen.\n</div><div>\n</div><div><br></div><div>Tevens kun je bezwaar (verzet) maken tegen de manier waarop bepaalde persoonsgegevens van je verwerkt worden.  Zo heb je het recht je te verzetten tegen het gebruik van je persoonsgegevens voor direct marketing-doeleinden (via uitschrijfmogelijkheden in e-mails) \n</div><div>\n</div><div><br></div><div>Ook heb je het recht om de door jou verstrekte gegevens door ons te laten overdragen aan jezelf of in opdracht van jou direct aan een andere partij. \n</div><div>\n</div><div><br></div><div>Via het adres bovenaan deze privacyverklaring kan je ons contacteren om je rechten uit te oefenen, vergezeld van een motivatie voor je vraag.  \n</div><div>\n</div><div><br></div><div>Wij kunnen je vragen om je te legitimeren voordat wij gehoor kunnen geven aan voornoemde verzoeken.  Om misbruik te voorkomen kunnen wij je daarbij vragen om je adequaat te identificeren. \n</div><div>\n</div><div>\n</div><div>\n</div><div>\n</div><div><br></div><div><b>2.10\tKlachten</b></div><div><br></div><div>\n</div><div>Mocht je een klacht hebben over de verwerking van je persoonsgegevens of over de uitoefening van je rechten dan vragen wij je hierover direct contact met ons op te nemen. \n</div><div>\n</div><div>VZW SPORTKLUB PLAZA\n</div><div>Parklaan 7 – 1500 Halle\n</div><div><a href=\"mailto:info@ppkessenbeek.be\">info@ppkessenbeek.be.</a></div><div><br></div><div>\n</div><div>\n</div><div>\n</div><div>Je hebt altijd het recht een klacht in te dienen bij de Gegevensbeschermingsautoriteit (GBA):\n</div><div>Drukpersstraat 35\n</div><div>1000 Brussel\n</div><div><a href=\"mailto:commission@privacycommission.be\">Commission@privacycommission.be</a>\n</div><div>\n</div><div><br></div><div><b>2.11\tWijzigingen aan onze privacyverklaring</b></div><div><br></div><div> \n</div><div>PPK ESSENBEEK  kan van tijd tot tijd deze privacyverklaring steeds aanpassen. De laatste wijziging gebeurde op 2 juni 2018.\n</div><div><b><br></b></div><p></p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qTQ7rKhZVU",
+          "_anchor": "content1-58",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
