@@ -778,23 +778,6 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Lees meer ...</a> "
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/table-tennis-table-1014x570.jpg",
-                "active": false,
-                "showButtons": false,
-                "showText": true,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-1",
-                "customStyle2": "display-5",
-                "customStyle3": "display-4",
-                "title": "Wie wordt de PPK Essenbeek Clubkampioen 2019 ?",
-                "overlay": true,
-                "contentAlign": "right",
-                "text": "Wie wordt de opvolger van Nick Hedges, de titelverdediger. Afspraak op vrijdag 19 April. Start om 20h. Aanwezig om 19h30. Graag inschrijven via info@ppkessenbeek.be",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">VOOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">VOOR MAC</a>"
-              },
-              {
                 "image": "@PROJECT_PATH@/assets/images/clash-1024x768.png",
                 "active": false,
                 "showButtons": false,
